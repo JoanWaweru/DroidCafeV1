@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DroidCafeV1</string>
+
+    <string name="tab_label_1" >Desserts</string>
+    <string name="tab_label_2" >Pastries</string>
+    <string name="tab_label_3" >Stores</string>
+    <string name="dessert_recipe">Dessert recipe</string>
+    <string name="pastries_frag">Pastries frag</string>
+    <string name="stores_frag">Stores frag</string>
+</resources>
