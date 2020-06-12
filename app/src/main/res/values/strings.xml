@@ -1,16 +1,18 @@
 <resources>
     <string name="app_name">Droid Caffe</string>
 
-    <string name="tab_label_1" >Desserts</string>
-    <string name="tab_label_2" >Pastries</string>
-    <string name="tab_label_3" >Stores</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
     <string name="dessert_recipes">Dessert recipes</string>
     <string name="pastries_frag">Pastries frag</string>
     <string name="stores_frag">Stores frag</string>
     <string name="browse_recipes">Browse recipes</string>
     <string name="recipe_title">Recipe title</string>
-    <string name="prep_cook_time"><![CDATA[Prep & cook time: x hrs]]></string>
+    <string name="prep_cook_time"><![CDATA[Prep & cook time: 2hrs]]></string>
     <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_balut">How to prepare Balut</string>
+    <string name="a_picture_of_balut">A picture of balut</string>
 
     <array name="desserts_images">
         <item>@drawable/balut_he</item>

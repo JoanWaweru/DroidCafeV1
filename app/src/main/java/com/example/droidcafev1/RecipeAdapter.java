@@ -1,11 +1,13 @@
 package com.example.droidcafev1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -54,6 +56,25 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
             myRecipeImage = itemView.findViewById(R.id.recipe_image);
             myRecipeTitle = itemView.findViewById(R.id.recipe_title);
             myRecipeDescription = itemView.findViewById(R.id.recipe_description);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int desertPosition = getAdapterPosition();
+                    Recipe currentDessert = recipeData.get(desertPosition);
+
+                    if (desertPosition == 0) {
+                        Intent balutIntent = new Intent(myContext, BalutActivity.class);
+                        balutIntent.putExtra("dTitle", currentDessert.getRecipeTitle());
+                        balutIntent.putExtra("dImage", currentDessert.getRecipeImage());
+                        balutIntent.putExtra("dDescription", currentDessert.getRecipeDescription());
+                        myContext.startActivity(balutIntent);
+                    }
+                    else {
+                        Toast.makeText(myContext, "create an activity for the dessert", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
         }
 
         public void bindTo(Recipe currentRecipe) {
