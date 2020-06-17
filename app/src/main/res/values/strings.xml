@@ -13,6 +13,7 @@
     <string name="recipe_short_description">Recipe short description</string>
     <string name="how_to_prepare_balut">How to prepare Balut</string>
     <string name="a_picture_of_balut">A picture of balut</string>
+    <string name="recipe_avatar">recipe avatar</string>
 
     <array name="desserts_images">
         <item>@drawable/balut_he</item>

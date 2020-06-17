@@ -46,7 +46,8 @@
                 android:drawableStart="@drawable/prep_time_ic"
                 android:padding="10dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:drawableLeft="@drawable/prep_time_ic" />
 
             <View
                 android:id="@+id/balut_divider"
