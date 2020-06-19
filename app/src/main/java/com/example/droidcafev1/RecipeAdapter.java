@@ -63,16 +63,11 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
                     int desertPosition = getAdapterPosition();
                     Recipe currentDessert = recipeData.get(desertPosition);
 
-                    if (desertPosition == 0) {
-                        Intent balutIntent = new Intent(myContext, BalutActivity.class);
-                        balutIntent.putExtra("dTitle", currentDessert.getRecipeTitle());
-                        balutIntent.putExtra("dImage", currentDessert.getRecipeImage());
-                        balutIntent.putExtra("dDescription", currentDessert.getRecipeDescription());
-                        myContext.startActivity(balutIntent);
-                    }
-                    else {
-                        Toast.makeText(myContext, "create an activity for the dessert", Toast.LENGTH_SHORT).show();
-                    }
+                    Intent balutIntent = new Intent(myContext, BalutActivity.class);
+                    balutIntent.putExtra("dTitle", currentDessert.getRecipeTitle());
+                    balutIntent.putExtra("dImage", currentDessert.getRecipeImage());
+                    balutIntent.putExtra("dDescription", currentDessert.getRecipeDescription());
+                    myContext.startActivity(balutIntent);
                 }
             });
         }

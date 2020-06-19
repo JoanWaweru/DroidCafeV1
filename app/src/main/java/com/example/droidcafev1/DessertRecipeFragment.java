@@ -69,7 +69,7 @@ public class DessertRecipeFragment extends Fragment {
 
     private void initializeData() {
         String[] dessertTitles = getResources().getStringArray(R.array.desserts_titles);
-        String[] dessertDescriptions = getResources().getStringArray(R.array.desserts_descritions);
+        String[] dessertDescriptions = getResources().getStringArray(R.array.desserts_descriptions);
         TypedArray dessertImages = getResources().obtainTypedArray(R.array.desserts_images);
 
         dessertRecipeData.clear();

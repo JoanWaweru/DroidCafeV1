@@ -3,29 +3,27 @@ package com.example.droidcafev1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-public class BalutActivity extends AppCompatActivity {
+public class StoreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_balut);
+        setContentView(R.layout.activity_store);
 
-        TextView balutTitle = findViewById(R.id.balut_title);
-        TextView balutDescription = findViewById(R.id.balut_description);
-        TextView balutRecipe = findViewById(R.id.balut_recipe);
-        ImageView balutImage = findViewById(R.id.balut_image);
-
-        String rTitle = "How to prepare " + getIntent().getStringExtra("dTitle");
+        TextView balutTitle = findViewById(R.id.store_view_name);
+        TextView balutDescription = findViewById(R.id.store_news);
+        ImageView balutImage = findViewById(R.id.store_view_image);
 
         balutTitle.setText(getIntent().getStringExtra("dTitle"));
         balutDescription.setText(getIntent().getStringExtra("dDescription"));
-        balutRecipe.setText(rTitle);
 
         Glide.with(this).load(getIntent().getIntExtra("dImage", 0)).into(balutImage);
     }
+
 }

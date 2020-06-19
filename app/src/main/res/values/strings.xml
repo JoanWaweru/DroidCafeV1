@@ -14,40 +14,193 @@
     <string name="how_to_prepare_balut">How to prepare Balut</string>
     <string name="a_picture_of_balut">A picture of balut</string>
     <string name="recipe_avatar">recipe avatar</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="cocktails">Cocktails</string>
+    <string name="pasta">Pasta</string>
+    <string name="contact_us">Contact us</string>
+    <string name="about_us">About us</string>
+    <string name="share_app">Share app</string>
+    <string name="user_name_text">Righa Lawrence</string>
+    <string name="email_address_text">lawrencierigha@gmail.com</string>
+    <string name="pastries_recipe">Pastries Recipes</string>
+    <string name="droid_cafe_stores">Droid Cafe Stores</string>
+    <string name="rate_or_stores">Rate or stores</string>
+    <string name="news">News</string>
+    <string name="open_daily_from_7_00_a_m">Open daily from 7:00 a.m</string>
+    <string name="like">LIKE</string>
+    <string name="comment">COMMENT</string>
+    <string name="share">SHARE</string>
+    <string name="store_name_text">Store name</string>
 
     <array name="desserts_images">
-        <item>@drawable/balut_he</item>
-        <item>@drawable/century_eggs_pidan</item>
-        <item>@drawable/cobra_spring_rolls</item>
-        <item>@drawable/balut_he</item>
-        <item>@drawable/century_eggs_pidan</item>
-        <item>@drawable/cobra_spring_rolls</item>
-        <item>@drawable/balut_he</item>
-        <item>@drawable/century_eggs_pidan</item>
-        <item>@drawable/cobra_spring_rolls</item>
+        <item>@drawable/tiramisu</item>
+        <item>@drawable/white_chocolate_parfait_flambeed</item>
+        <item>@drawable/halo_halo</item>
+        <item>@drawable/tiramisu</item>
+        <item>@drawable/white_chocolate_parfait_flambeed</item>
+        <item>@drawable/halo_halo</item>
+        <item>@drawable/tiramisu</item>
+        <item>@drawable/white_chocolate_parfait_flambeed</item>
+        <item>@drawable/halo_halo</item>
     </array>
 
     <string-array name="desserts_titles">
-        <item>Balut</item>
-        <item>Century Eggs</item>
-        <item>Cobra Spring Rolls</item>
-        <item>Balut</item>
-        <item>Century Eggs</item>
-        <item>Cobra Spring Rolls</item>
-        <item>Balut</item>
-        <item>Century Eggs</item>
-        <item>Cobra Spring Rolls</item>
+        <item>Tiramisu</item>
+        <item>White chocolate parfait flambeed</item>
+        <item>Halo halo</item>
+        <item>Tiramisu</item>
+        <item>White chocolate parfait flambeed</item>
+        <item>Halo halo</item>
+        <item>Tiramisu</item>
+        <item>White chocolate parfait flambeed</item>
+        <item>Halo halo</item>
     </string-array>
 
-    <string-array name="desserts_descritions">
-        <item>Balut looks disgusting but tests nothing like not it</item>
-        <item>Not exactly eggs but at least we eat them not</item>
-        <item>cobras are dangerous but have you tasted their crafted flesh not</item>
-        <item>Balut looks disgusting but tests nothing like not it</item>
-        <item>Not exactly eggs but at least we eat them not</item>
-        <item>cobras are dangerous but have you tasted their crafted flesh not</item>
-        <item>Balut looks disgusting but tests nothing like not it</item>
-        <item>Not exactly eggs but at least we eat them not</item>
-        <item>cobras are dangerous but have you tasted their crafted flesh not</item>
+    <string-array name="desserts_descriptions">
+        <item>Tiramisu looks chocolatey with strawberry and some weird berries on top</item>
+        <item>White chocolate with embedded rasp berries and sweet herbs</item>
+        <item>Halo halo is a creepy mixture of fruits and berries</item>
+        <item>Tiramisu looks chocolatey with strawberry and some weird berries on top</item>
+        <item>White chocolate with embedded rasp berries and sweet herbs</item>
+        <item>Halo halo is a creepy mixture of fruits and berries</item>
+        <item>Tiramisu looks chocolatey with strawberry and some weird berries on top</item>
+        <item>White chocolate with embedded rasp berries and sweet herbs</item>
+        <item>Halo halo is a creepy mixture of fruits and berries</item>
     </string-array>
+
+    <array name="pastries_images">
+        <item>@drawable/crappy_kochen</item>
+        <item>@drawable/manresa_pastries</item>
+        <item>@drawable/maxres</item>
+        <item>@drawable/raspberry_pastries</item>
+        <item>@drawable/crappy_kochen</item>
+        <item>@drawable/manresa_pastries</item>
+        <item>@drawable/maxres</item>
+        <item>@drawable/raspberry_pastries</item>
+        <item>@drawable/crappy_kochen</item>
+        <item>@drawable/manresa_pastries</item>
+        <item>@drawable/maxres</item>
+        <item>@drawable/raspberry_pastries</item>
+    </array>
+
+    <string-array name="pastries_titles">
+        <item>Crappy kochen</item>
+        <item>Manresa Pastries</item>
+        <item>Maxres Pastries</item>
+        <item>Raspberry Pastries</item>
+        <item>Crappy kochen</item>
+        <item>Manresa Pastries</item>
+        <item>Maxres Pastries</item>
+        <item>Raspberry Pastries</item>
+        <item>Crappy kochen</item>
+        <item>Manresa Pastries</item>
+        <item>Maxres Pastries</item>
+        <item>Raspberry Pastries</item>
+    </string-array>
+
+    <string-array name="pastries_descriptions">
+        <item>Good bake smeared with sugar and over pasted on the inside</item>
+        <item>Curvy bread and tasty paste and a little pepper rained on top</item>
+        <item>Oily bake with sour fruit paste and golden brown finish</item>
+        <item>Star shaped crafting with sandwiched beef and cocktail paste</item>
+        <item>Good bake smeared with sugar and over pasted on the inside</item>
+        <item>Curvy bread and tasty paste and a little pepper rained on top</item>
+        <item>Oily bake with sour fruit paste and golden brown finish</item>
+        <item>Star shaped crafting with sandwiched beef and cocktail paste</item>
+        <item>Good bake smeared with sugar and over pasted on the inside</item>
+        <item>Curvy bread and tasty paste and a little pepper rained on top</item>
+        <item>Oily bake with sour fruit paste and golden brown finish</item>
+        <item>Star shaped crafting with sandwiched beef and cocktail paste</item>
+    </string-array>
+
+    <array name="pizza_images">
+        <item>@drawable/neapolitan_pizza</item>
+        <item>@drawable/detroit_style_pizza</item>
+        <item>@drawable/st_louis_pizza</item>
+    </array>
+
+    <string-array name="pizza_titles">
+        <item>Neapolitan pizza</item>
+        <item>Detroit pizza</item>
+        <item>St. Louis pizza</item>
+    </string-array>
+
+    <string-array name="pizza_descriptions">
+        <item>neapolitan</item>
+        <item>detroit</item>
+        <item>st. louis</item>
+    </string-array>
+
+    <array name="cocktail_images">
+        <item>@drawable/mai_tai</item>
+        <item>@drawable/martini</item>
+        <item>@drawable/mojito</item>
+    </array>
+
+    <string-array name="cocktails_titles">
+        <item>Mai-tai</item>
+        <item>Martini</item>
+        <item>Mojito</item>
+    </string-array>
+
+    <string-array name="cocktails_descriptions">
+        <item>mai tai</item>
+        <item>martini</item>
+        <item>mojito</item>
+    </string-array>
+
+    <array name="pasta_images">
+        <item>@drawable/pasta_a_la_carbonara</item>
+        <item>@drawable/kale_and_mushrooms</item>
+        <item>@drawable/creamy_cajun_linguine</item>
+    </array>
+
+    <string-array name="pasta_titles">
+        <item>Pasta a la carbonara</item>
+        <item>Pasta with kale and mushrooms</item>
+        <item>Creamy cajun linguine</item>
+    </string-array>
+
+    <string-array name="pasta_descriptions">
+        <item>carbonara</item>
+        <item>kale</item>
+        <item>cajun</item>
+    </string-array>
+
+    <array name="stores_images">
+        <item>@drawable/catch_restaurants</item>
+        <item>@drawable/goerreshof</item>
+        <item>@drawable/santa_barbara</item>
+        <item>@drawable/catch_restaurants</item>
+        <item>@drawable/goerreshof</item>
+        <item>@drawable/santa_barbara</item>
+        <item>@drawable/catch_restaurants</item>
+        <item>@drawable/goerreshof</item>
+        <item>@drawable/santa_barbara</item>
+    </array>
+
+    <string-array name="stores_names">
+        <item>Catchy restaurants</item>
+        <item>Goerreshof</item>
+        <item>Santa Barbara</item>
+        <item>Catchy restaurants</item>
+        <item>Goerreshof</item>
+        <item>Santa Barbara</item>
+        <item>Catchy restaurants</item>
+        <item>Goerreshof</item>
+        <item>Santa Barbara</item>
+    </string-array>
+
+    <string-array name="stores_descriptions">
+        <item>Catchy restaurants is located on the east of the catchy mountains where fresh st. Martha pepper and other bolivian spices are grown</item>
+        <item>Goerreshof of origin deep Germany has all the fresh city grown flavours your life is missing</item>
+        <item>Santa barbara is located just near the barbara so your stuff gets picked up chap chap and you get it within no minutes</item>
+        <item>Catchy restaurants is located on the east of the catchy mountains where fresh st. Martha pepper and other bolivian spices are grown</item>
+        <item>Goerreshof of origin deep Germany has all the fresh city grown flavours your life is missing</item>
+        <item>Santa barbara is located just near the barbara so your stuff gets picked up chap chap and you get it within no minutes</item>
+        <item>Catchy restaurants is located on the east of the catchy mountains where fresh st. Martha pepper and other bolivian spices are grown</item>
+        <item>Goerreshof of origin deep Germany has all the fresh city grown flavours your life is missing</item>
+        <item>Santa barbara is located just near the barbara so your stuff gets picked up chap chap and you get it within no minutes</item>
+    </string-array>
+
 </resources>

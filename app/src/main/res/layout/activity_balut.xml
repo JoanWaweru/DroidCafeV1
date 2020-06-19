@@ -18,7 +18,7 @@
             <ImageView
                 android:id="@+id/balut_image"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="300dp"
                 android:background="@color/css_grey"
                 android:paddingBottom="10dp"
                 android:adjustViewBounds="true"
@@ -70,15 +70,17 @@
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/balut_card_view">
 
         <TextView
+            android:id="@+id/balut_recipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/how_to_prepare_balut"
+            android:text=""
             android:textStyle="bold"
             android:textColor="@color/kinda_black" />
 
