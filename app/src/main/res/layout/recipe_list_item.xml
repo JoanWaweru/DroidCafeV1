@@ -37,6 +37,7 @@
             android:textColor="?android:textColorSecondary"
             android:layout_below="@id/recipe_title"
             android:drawableStart="@drawable/prep_time_ic"
+            android:drawablePadding="11sp"
             android:padding="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
             android:theme="@style/ThemeOverlay.AppCompat.Light"

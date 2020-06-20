@@ -39,6 +39,7 @@
             android:textColor="?android:textColorSecondary"
             android:layout_below="@id/store_name"
             android:drawableStart="@drawable/ic_alarm_blue"
+            android:drawablePadding="11sp"
             android:padding="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
             android:theme="@style/ThemeOverlay.AppCompat.Light"
@@ -69,9 +70,11 @@
             android:text="@string/like"
             android:textStyle="bold"
             android:padding="11sp"
+            android:gravity="center_vertical"
             android:layout_alignParentStart="true"
             android:layout_below="@id/divider"
             android:onClick="toggleClicked"
+            android:drawablePadding="11sp"
             android:drawableStart="@drawable/ic_thumb_coral"
             android:drawableLeft="@drawable/ic_thumb_coral"
             android:layout_alignParentLeft="true" />
@@ -83,9 +86,11 @@
             android:text="@string/comment"
             android:textStyle="bold"
             android:padding="11sp"
+            android:gravity="center_vertical"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/divider"
             android:onClick="toggleClicked"
+            android:drawablePadding="11sp"
             android:drawableStart="@drawable/ic_comment_coral"
             android:drawableLeft="@drawable/ic_comment_coral" />
 
@@ -99,6 +104,8 @@
             android:layout_alignParentRight="true"
             android:layout_below="@id/divider"
             android:onClick="toggleClicked"
+            android:gravity="center_vertical"
+            android:drawablePadding="11sp"
             android:drawableStart="@drawable/ic_share_coral"
             android:drawableLeft="@drawable/ic_share_coral"
             android:layout_alignParentEnd="true" />
