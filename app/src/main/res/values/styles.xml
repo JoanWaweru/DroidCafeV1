@@ -16,4 +16,6 @@
         <item name="android:textSize">17sp</item>
     </style>
 
+    <style name="ratingBarSmall" parent="Widget.AppCompat.RatingBar.Small" />
+
 </resources>

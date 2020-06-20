@@ -63,6 +63,7 @@ public class StoresFragment extends Fragment {
 
         helper.attachToRecyclerView(storesRecyclerView);
 
+
         return rootView;
     }
 

@@ -42,8 +42,7 @@
             android:drawablePadding="11sp"
             android:padding="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:theme="@style/ThemeOverlay.AppCompat.Light"
-            android:drawableLeft="@drawable/ic_alarm_blue" />
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
 
         <TextView
             android:id="@+id/store_description"
@@ -73,8 +72,9 @@
             android:rating="3.5"
             android:stepSize="0.5"
             android:paddingVertical="8dp"
-            android:layout_marginLeft="11sp"
-            android:layout_marginStart="11sp" />
+            android:layout_marginStart="11sp"
+            android:progressTint="@color/real_coral"
+            android:progressBackgroundTint="@color/bright_tab" />
 
         <TextView
             android:id="@+id/btn_like"
@@ -88,9 +88,7 @@
             android:layout_below="@id/rating_bar"
             android:onClick="toggleClicked"
             android:drawablePadding="11sp"
-            android:drawableStart="@drawable/ic_thumb_coral"
-            android:drawableLeft="@drawable/ic_thumb_coral"
-            android:layout_alignParentLeft="true" />
+            android:drawableStart="@drawable/ic_thumb_coral" />
 
         <TextView
             android:id="@+id/btn_comment"
@@ -104,8 +102,7 @@
             android:layout_below="@id/rating_bar"
             android:onClick="toggleClicked"
             android:drawablePadding="11sp"
-            android:drawableStart="@drawable/ic_comment_coral"
-            android:drawableLeft="@drawable/ic_comment_coral" />
+            android:drawableStart="@drawable/ic_comment_coral" />
 
         <TextView
             android:id="@+id/btn_share"
@@ -114,13 +111,11 @@
             android:text="@string/share"
             android:textStyle="bold"
             android:padding="11sp"
-            android:layout_alignParentRight="true"
             android:layout_below="@id/rating_bar"
             android:onClick="toggleClicked"
             android:gravity="center_vertical"
             android:drawablePadding="11sp"
             android:drawableStart="@drawable/ic_share_coral"
-            android:drawableLeft="@drawable/ic_share_coral"
             android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
