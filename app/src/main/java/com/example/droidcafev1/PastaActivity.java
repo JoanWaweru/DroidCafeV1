@@ -74,14 +74,4 @@ public class PastaActivity extends AppCompatActivity {
         pastaImages.recycle();
         pastaAdapter.notifyDataSetChanged();
     }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            Intent home = new Intent(this, MainActivity.class);
-            startActivity(home);
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }
