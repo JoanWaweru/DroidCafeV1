@@ -68,50 +68,68 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        navigationView.bringToFront();
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 String appUrl = "http://www.github.com/Righa/DroidCafeV1";
                 switch (item.getItemId()) {
                     case R.id.option_pizza:
-                        Toast.makeText(MainActivity.this, "soon you will see pizza when you click that", Toast.LENGTH_SHORT).show();
-                        break;
+                        item.setChecked(true);
+                        Intent pizza = new Intent(MainActivity.this, PizzaActivity.class);
+                        startActivity(pizza);
+                        drawerLayout.closeDrawers();
+                        return true;
 
                     case R.id.option_cocktails:
-                        Toast.makeText(MainActivity.this, "soon you will see cocktails when you click that", Toast.LENGTH_SHORT).show();
-                        break;
+                        item.setChecked(true);
+                        Intent cocktail = new Intent(MainActivity.this, CocktailsActivity.class);
+                        startActivity(cocktail);
+                        drawerLayout.closeDrawers();
+                        return true;
 
                     case R.id.option_pasta:
-                        Toast.makeText(MainActivity.this, "soon you will see pasta when you click that", Toast.LENGTH_SHORT).show();
-                        break;
+                        item.setChecked(true);
+                        Intent pasta = new Intent(MainActivity.this, PastaActivity.class);
+                        startActivity(pasta);
+                        drawerLayout.closeDrawers();
+                        return true;
 
                     case R.id.contact_us:
+                        item.setChecked(true);
                         Intent callUs = new Intent(Intent.ACTION_DIAL);
-                        callUs.setData(Uri.parse("*144#"));
+                        callUs.setData(Uri.parse("tel:08234567887428"));
+                        drawerLayout.closeDrawers();
                         startActivity(callUs);
-                        break;
+                        return true;
 
                     case R.id.about_us:
+                        item.setChecked(true);
                         Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(appUrl));
+                        drawerLayout.closeDrawers();
                         startActivity(i);
-                        break;
+                        return true;
 
                     case R.id.share_app:
+                        item.setChecked(true);
                         Intent shareIntent = new Intent(Intent.ACTION_SEND);
                         shareIntent.setType("text/plain");
                         shareIntent.putExtra(Intent.EXTRA_TEXT, "Take a look at this app, " + appUrl);
 
                         Intent chooser = Intent.createChooser(shareIntent, "Share via");
+
+                        drawerLayout.closeDrawers();
+
                         if (shareIntent.resolveActivity(getPackageManager()) != null) {
                             startActivity(chooser);
                         }
-                        break;
+                        return true;
 
                     default:
-                        break;
+                        return false;
                 }
-                return false;
             }
         });
 
@@ -119,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
         if (item.getItemId() == android.R.id.home) {
             drawerLayout.openDrawer(GravityCompat.START);
             return true;
@@ -128,6 +147,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toggleClicked(View view) {
-        view.setBackgroundColor(getResources().getColor(R.color.bright_tab));
+        switch (view.getId()) {
+            case R.id.btn_like:
+                Toast.makeText(this, "you clicked like", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btn_comment:
+                Toast.makeText(this, "you clicked comment", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btn_share:
+                Toast.makeText(this, "you clicked share", Toast.LENGTH_SHORT).show();
+                break;
+        }
     }
 }

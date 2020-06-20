@@ -31,6 +31,11 @@
     <string name="comment">COMMENT</string>
     <string name="share">SHARE</string>
     <string name="store_name_text">Store name</string>
+    <string name="foods">Foods</string>
+    <string name="communication">Communication</string>
+    <string name="pizza_recipes">Pizza Recipes</string>
+    <string name="cocktails_recipes">Cocktails Recipes</string>
+    <string name="pasta_recipes">Pasta Recipes</string>
 
     <array name="desserts_images">
         <item>@drawable/tiramisu</item>
@@ -117,21 +122,45 @@
         <item>@drawable/neapolitan_pizza</item>
         <item>@drawable/detroit_style_pizza</item>
         <item>@drawable/st_louis_pizza</item>
+        <item>@drawable/neapolitan_pizza</item>
+        <item>@drawable/detroit_style_pizza</item>
+        <item>@drawable/st_louis_pizza</item>
+        <item>@drawable/neapolitan_pizza</item>
+        <item>@drawable/detroit_style_pizza</item>
+        <item>@drawable/st_louis_pizza</item>
     </array>
 
     <string-array name="pizza_titles">
         <item>Neapolitan pizza</item>
         <item>Detroit pizza</item>
         <item>St. Louis pizza</item>
+        <item>Neapolitan pizza</item>
+        <item>Detroit pizza</item>
+        <item>St. Louis pizza</item>
+        <item>Neapolitan pizza</item>
+        <item>Detroit pizza</item>
+        <item>St. Louis pizza</item>
     </string-array>
 
     <string-array name="pizza_descriptions">
-        <item>neapolitan</item>
-        <item>detroit</item>
-        <item>st. louis</item>
+        <item>The typical Neapolitan pizza toppings are fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil. Since Neapolitan pizza is thin, it isn\'t designed to handle the weight of too many toppings</item>
+        <item>Detroit pizza traditionally features pepperoni, brick cheese (usually Wisconsin brick cheese), and tomato sauce. Other typical toppings include mushrooms and olives</item>
+        <item>St. Louis pizza features Provel cheese and a sweeter tomato sauce with a hefty dosage of oregano. Because of its firm crust, St. Louis-style pizza can support several toppings of your choice</item>
+        <item>The typical Neapolitan pizza toppings are fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil. Since Neapolitan pizza is thin, it isn\'t designed to handle the weight of too many toppings</item>
+        <item>Detroit pizza traditionally features pepperoni, brick cheese (usually Wisconsin brick cheese), and tomato sauce. Other typical toppings include mushrooms and olives</item>
+        <item>St. Louis pizza features Provel cheese and a sweeter tomato sauce with a hefty dosage of oregano. Because of its firm crust, St. Louis-style pizza can support several toppings of your choice</item>
+        <item>The typical Neapolitan pizza toppings are fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil. Since Neapolitan pizza is thin, it isn\'t designed to handle the weight of too many toppings</item>
+        <item>Detroit pizza traditionally features pepperoni, brick cheese (usually Wisconsin brick cheese), and tomato sauce. Other typical toppings include mushrooms and olives</item>
+        <item>St. Louis pizza features Provel cheese and a sweeter tomato sauce with a hefty dosage of oregano. Because of its firm crust, St. Louis-style pizza can support several toppings of your choice</item>
     </string-array>
 
     <array name="cocktail_images">
+        <item>@drawable/mai_tai</item>
+        <item>@drawable/martini</item>
+        <item>@drawable/mojito</item>
+        <item>@drawable/mai_tai</item>
+        <item>@drawable/martini</item>
+        <item>@drawable/mojito</item>
         <item>@drawable/mai_tai</item>
         <item>@drawable/martini</item>
         <item>@drawable/mojito</item>
@@ -141,15 +170,33 @@
         <item>Mai-tai</item>
         <item>Martini</item>
         <item>Mojito</item>
+        <item>Mai-tai</item>
+        <item>Martini</item>
+        <item>Mojito</item>
+        <item>Mai-tai</item>
+        <item>Martini</item>
+        <item>Mojito</item>
     </string-array>
 
     <string-array name="cocktails_descriptions">
-        <item>mai tai</item>
-        <item>martini</item>
-        <item>mojito</item>
+        <item>The Mai Tai is a cocktail based on rum, Curaçao liqueur, orgeat syrup, and lime juice, associated with Polynesian-style settings</item>
+        <item>Classic Gin Martini Cocktail. The archetypal gin serve, the Gin MARTINI Cocktail was an icon of the 20th century, and is more popular than ever in the 21st</item>
+        <item>The mojito is one of the most famous rum-based highballs. There are several versions of the mojito</item>
+        <item>The Mai Tai is a cocktail based on rum, Curaçao liqueur, orgeat syrup, and lime juice, associated with Polynesian-style settings</item>
+        <item>Classic Gin Martini Cocktail. The archetypal gin serve, the Gin MARTINI Cocktail was an icon of the 20th century, and is more popular than ever in the 21st</item>
+        <item>The mojito is one of the most famous rum-based highballs. There are several versions of the mojito</item>
+        <item>The Mai Tai is a cocktail based on rum, Curaçao liqueur, orgeat syrup, and lime juice, associated with Polynesian-style settings</item>
+        <item>Classic Gin Martini Cocktail. The archetypal gin serve, the Gin MARTINI Cocktail was an icon of the 20th century, and is more popular than ever in the 21st</item>
+        <item>The mojito is one of the most famous rum-based highballs. There are several versions of the mojito</item>
     </string-array>
 
     <array name="pasta_images">
+        <item>@drawable/pasta_a_la_carbonara</item>
+        <item>@drawable/kale_and_mushrooms</item>
+        <item>@drawable/creamy_cajun_linguine</item>
+        <item>@drawable/pasta_a_la_carbonara</item>
+        <item>@drawable/kale_and_mushrooms</item>
+        <item>@drawable/creamy_cajun_linguine</item>
         <item>@drawable/pasta_a_la_carbonara</item>
         <item>@drawable/kale_and_mushrooms</item>
         <item>@drawable/creamy_cajun_linguine</item>
@@ -159,12 +206,24 @@
         <item>Pasta a la carbonara</item>
         <item>Pasta with kale and mushrooms</item>
         <item>Creamy cajun linguine</item>
+        <item>Pasta a la carbonara</item>
+        <item>Pasta with kale and mushrooms</item>
+        <item>Creamy cajun linguine</item>
+        <item>Pasta a la carbonara</item>
+        <item>Pasta with kale and mushrooms</item>
+        <item>Creamy cajun linguine</item>
     </string-array>
 
     <string-array name="pasta_descriptions">
-        <item>carbonara</item>
-        <item>kale</item>
-        <item>cajun</item>
+        <item>For a quick dinner, whip up Tyler Florence\'s authentic Spaghetti alla Carbonara recipe, a rich tangle of pasta, pancetta and egg, from Food Network</item>
+        <item>Garlicky Mushroom + Kale with Pasta. This recipe is very flexible and can be mixed up using different broths, noodles or herbs</item>
+        <item>Like this creamy cajun linguine. It’s not only easy to make, but creamy, simple pastas exhibit a simple elegance to me</item>
+        <item>For a quick dinner, whip up Tyler Florence\'s authentic Spaghetti alla Carbonara recipe, a rich tangle of pasta, pancetta and egg, from Food Network</item>
+        <item>Garlicky Mushroom + Kale with Pasta. This recipe is very flexible and can be mixed up using different broths, noodles or herbs</item>
+        <item>Like this creamy cajun linguine. It’s not only easy to make, but creamy, simple pastas exhibit a simple elegance to me</item>
+        <item>For a quick dinner, whip up Tyler Florence\'s authentic Spaghetti alla Carbonara recipe, a rich tangle of pasta, pancetta and egg, from Food Network</item>
+        <item>Garlicky Mushroom + Kale with Pasta. This recipe is very flexible and can be mixed up using different broths, noodles or herbs</item>
+        <item>Like this creamy cajun linguine. It’s not only easy to make, but creamy, simple pastas exhibit a simple elegance to me</item>
     </string-array>
 
     <array name="stores_images">
