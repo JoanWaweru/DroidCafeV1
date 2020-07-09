@@ -21,7 +21,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
     private ArrayList<Recipe> recipeData;
     private Context myContext;
 
-    public RecipeAdapter(ArrayList<Recipe> recipeData, Context myContext) {
+    RecipeAdapter(ArrayList<Recipe> recipeData, Context myContext) {
         this.recipeData = recipeData;
         this.myContext = myContext;
     }
@@ -45,12 +45,12 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
         return recipeData.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView myRecipeImage;
         private TextView myRecipeTitle;
         private TextView myRecipeDescription;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             myRecipeImage = itemView.findViewById(R.id.recipe_image);
@@ -72,7 +72,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
             });
         }
 
-        public void bindTo(Recipe currentRecipe) {
+        void bindTo(Recipe currentRecipe) {
             Glide.with(myContext).load(currentRecipe.getRecipeImage()).into(myRecipeImage);
             myRecipeTitle.setText(currentRecipe.getRecipeTitle());
             myRecipeDescription.setText(currentRecipe.getRecipeDescription());
