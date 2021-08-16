@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="192dp"
-    android:background="@drawable/catch_restaurants"
+    android:background="#411B68"
     android:padding="16dp"
     android:gravity="bottom"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
@@ -11,7 +11,7 @@
         android:id="@+id/user_avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@mipmap/user_icon_round" />
+        android:src="@mipmap/ic_my_app_round" />
 
 
     <TextView

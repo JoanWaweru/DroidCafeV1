@@ -24,7 +24,7 @@
             android:id="@+id/tool_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:logo="@mipmap/food_logo"
+            app:logo="@mipmap/ic_my_app"
             android:layout_alignParentTop="true"
             android:background="@color/dark_toolbar"
             app:titleTextAppearance="@style/app_title"

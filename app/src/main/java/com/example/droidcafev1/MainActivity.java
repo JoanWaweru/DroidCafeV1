@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                String appUrl = "http://www.github.com/Righa/DroidCafeV1";
+                String appUrl = "http://www.github.com/JoanWaweru";
                 switch (item.getItemId()) {
                     case R.id.option_pizza:
                         item.setChecked(true);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.contact_us:
                         item.setChecked(true);
                         Intent callUs = new Intent(Intent.ACTION_DIAL);
-                        callUs.setData(Uri.parse("tel:08234567887428"));
+                        callUs.setData(Uri.parse("tel:0740182052"));
                         drawerLayout.closeDrawers();
                         startActivity(callUs);
                         return true;

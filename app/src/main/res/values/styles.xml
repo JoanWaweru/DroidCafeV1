@@ -11,11 +11,11 @@
     </style>
 
     <style name="app_title">
-        <item name="android:fontFamily">@font/amsterdam</item>
-        <item name="android:textColor">@color/grey_dark</item>
-        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/magicownfont</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="ratingBarSmall" parent="Widget.AppCompat.RatingBar.Small" />
+    <style name="ratingBarSmall" parent="Widget.AppCompat.RatingBar.Small" color="#411B68"/>
 
 </resources>

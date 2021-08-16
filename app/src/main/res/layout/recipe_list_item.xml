@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recipe_title"
-            android:textColor="#FFFF00"
+            android:textColor="#FFBB86FC"
             android:layout_alignBottom="@id/recipe_image"
             android:padding="10dp"
             android:layout_marginTop="4dp"
@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@id/recipe_prep"
-            android:background="@color/css_grey"/>
+            android:background="#FFBB86FC"/>
 
         <TextView
             android:id="@+id/recipe_description"

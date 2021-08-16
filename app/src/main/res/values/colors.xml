@@ -2,9 +2,9 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="dark_toolbar">#00CED1</color>
-    <color name="bright_tab">#09E8DE</color>
+    <color name="colorAccent">#FFBB86FC</color>
+    <color name="bright_tab">#411B40</color>
+    <color name="dark_toolbar">#411B68</color>
     <color name="grey_dark">#5E5E5E</color>
     <color name="kinda_black">#213240</color>
     <color name="css_grey">#808080</color>

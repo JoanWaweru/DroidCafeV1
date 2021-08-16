@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/recipe_title"
-                android:textColor="#FFFF00"
+                android:textColor="#411B40"
                 android:layout_alignBottom="@id/balut_image"
                 android:padding="10dp"
                 android:layout_marginTop="4dp"

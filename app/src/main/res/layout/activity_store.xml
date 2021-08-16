@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/news"
-        android:fontFamily="@font/amsterdam"
+        android:fontFamily="@font/magicownfont"
         android:layout_below="@id/store_view_name"
         android:padding="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"

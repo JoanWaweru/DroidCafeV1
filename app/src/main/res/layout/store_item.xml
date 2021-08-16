@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/store_name_text"
-            android:textColor="#FFFF00"
+            android:textColor="#411B68"
             android:background="@color/css_grey"
             android:layout_alignBottom="@id/store_image"
             android:padding="10dp"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@id/store_description"
-            android:background="@color/real_coral"/>
+            android:background="#411B68"/>
 
         <RatingBar
             android:id="@+id/rating_bar"
